@@ -1,0 +1,16 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.rulers": [
+    120
+    ],
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.profiles.windows": {
+        "bash": {
+          // 自己的安装路径, 是bin下的bash.exe
+          "path": "D:\\Programs\\Git\\bin\\bash.exe",
+            // 使自定义命令的别名生效
+            "args": []
+        }
+      },
+    "terminal.integrated.defaultProfile.windows": "bash",
+}
