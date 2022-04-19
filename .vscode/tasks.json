@@ -13,7 +13,7 @@
 				"-g",  // 添加gdb调试信息
                 "'${file}'", //当前文件名
                 "-o", //对象名，不进行编译优化
-				"${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe"
+				"'${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe'"
 			],
 			// 所以以上部分，就是在shell中执行（假设文件名为filename.cpp）g++ -g filename.cpp -o bin/filename.exe
 			"options": {
