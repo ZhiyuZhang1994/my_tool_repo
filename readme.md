@@ -1,2 +1,3 @@
-1、安装GitLens、Git History、Hightlight-words、SFTP、vscode-icons等插件
-2、添加setting.json文件的注释、新增sftp.json文件
+本代码仓为个人所写一些工具类
+1、一行宏定义使一个类变为单例类
+2、编写类自动注册宏
