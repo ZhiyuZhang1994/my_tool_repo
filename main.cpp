@@ -6,8 +6,9 @@
 #include <map>
 
 int main()  {
-    A::GetInstance(2, 3)->print_a_b();
+    A::get_instance(2, 3)->print_a_b();
     std::cout << "--------Split line-------------" << std::endl;
-    A::GetInstance(2, 3)->print_a_b();
+    B::get_instance()->print_empty();
+    A::get_instance(2, 3)->print_a_b();
     getchar();
 }

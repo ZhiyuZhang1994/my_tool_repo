@@ -19,3 +19,14 @@ private:
     int a;
     int b;
 };
+
+class B
+{
+    SINGLETON_CLASS(B);
+
+public:
+    void print_empty() { std::cout << "empty"<< std::endl;}
+
+private:
+    B() = default;
+};
