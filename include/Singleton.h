@@ -8,6 +8,7 @@
 #include <iostream>
 #include <atomic>
 #include <utility>
+#include "construct_define.h"
 
 template<typename class_name>
 class Singleton
@@ -58,9 +59,4 @@ public: \
     { \
         Singleton<class_name>::destory(); \
     }
-
-#define DISALLOW_COPY_AND_ASSIGN(class_name) \
-    class_name(const class_name&) = delete; \
-    class_name& operator=(const class_name&) = delete
-
 #endif
