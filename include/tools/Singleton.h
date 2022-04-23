@@ -2,8 +2,8 @@
 // author: zhangzhiyu
 // date: 2022.4.19
 
-#ifndef INCLUDE_SINGLETON
-#define INCLUDE_SINGLETON
+#ifndef INCLUDE_TOOLS_SINGLETON
+#define INCLUDE_TOOLS_SINGLETON
 
 #include <iostream>
 #include <atomic>

@@ -2,8 +2,8 @@
 // author: zhangzhiyu
 // date: 2022.4.20
 
-#ifndef INCLUDE_CLASS_REGISTER
-#define INCLUDE_CLASS_REGISTER
+#ifndef INCLUDE_TOOLS_CLASS_REGISTER
+#define INCLUDE_TOOLS_CLASS_REGISTER
 
 #include "./Singleton.h"
 #include "./construct_define.h"

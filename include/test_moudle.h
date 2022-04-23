@@ -2,9 +2,9 @@
 // author: zhangzhiyu
 // date: 2022.4.19
 
-#include "./Singleton.h"
-#include "./construct_define.h"
-#include "./class_register.h"
+#include "./tools/Singleton.h"
+#include "./tools/construct_define.h"
+#include "./tools/class_register.h"
 #include <iostream>
 
 // 单例测试类A
@@ -57,3 +57,6 @@ private:
 
 // 此处的0x123为自定义的用于表示类C的ID，正式代码中可以用类名hash一个
 CLASS_REGISTER(C, 0x123, 1, 2);
+
+
+

@@ -2,8 +2,8 @@
 // author: zhangzhiyu
 // date: 2022.4.19
 
-#ifndef INCLUDE_CONSTRUCT_DEFINE
-#define INCLUDE_CONSTRUCT_DEFINE
+#ifndef INCLUDE_TOOLS_CONSTRUCT_DEFINE
+#define INCLUDE_TOOLS_CONSTRUCT_DEFINE
 
 #define DISALLOW_COPY_AND_ASSIGN(class_name) \
     class_name(const class_name&) = delete; \
