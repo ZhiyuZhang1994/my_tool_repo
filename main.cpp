@@ -1,11 +1,13 @@
 #include "./include/test_moudle.h"
 #include "./include/tools/notifier_and_observer.h"
+#include "./include/tools/declare_operator_funcs.h"
 #include <iostream>
 #include <vector>
 #include <queue>
 #include <string>
 #include <unordered_set>
 #include <map>
+#include <string>
 
 // 一、测试单例模式
 void test_singleton()
@@ -62,7 +64,19 @@ void test_notifier_and_observer()
     }
 }
 
+// 三、结构体大小比较
+void test_struct_compare()
+{
+    direction dir1{1,2,3};
+    direction dir2(2,3,4);
+    direction dir3{3,4,5};
+    if (dir1 < dir2) {
+        std::cout << "dir1 < dir2" << std::endl;
+    }
+}
+
+
 int main()  {
-    test_notifier_and_observer();
+    test_struct_compare();
     getchar();
 }

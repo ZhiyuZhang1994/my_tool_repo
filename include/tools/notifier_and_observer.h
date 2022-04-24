@@ -9,6 +9,7 @@
 //      1、未加锁，不保证线程安全
 //      2、消息内容固定为int，无法扩展：制约了回调函数与通知函数
 //      3、未考虑性能问题，只是玩具级工具
+//      4、未实现解观察detach()与释放主题release()两函数
 
 #ifndef INCLUDE_TOOLS_NOTIFIER_AND_OBSERVER
 #define INCLUDE_TOOLS_NOTIFIER_AND_OBSERVER
