@@ -68,5 +68,5 @@ struct direction
     int y_;
     int z_;
 };
-DECLARE_ALL_OPERATOR_FUNCS_3_ARGS(direction, x_, y_, z_);
+DECLARE_ALL_OPERATOR_FUNCS(direction, x_, y_, z_);
 
